@@ -1,0 +1,16 @@
+{
+  "n": 7872,
+  "valid": 7869,
+  "strict_duplicates": 0,
+  "strict_rate": 0.0,
+  "parse_failures": 3,
+  "distinct_signatures": 7869,
+  "largest_groups": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "cross_skill_groups": 0
+}
