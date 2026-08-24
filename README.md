@@ -23,6 +23,8 @@ different endgames, a shared engine style. That is a huge credit to your
 grounding-and-validation pipeline and a caught limitation of my own
 instrument.
 
+*Reproduction note: re-running the full audit on a second machine (macOS, Python 3.11) reproduced every number except that 3 of 7,872 files (0.04%) fail to parse under 3.11 — they use f-string syntax legal only in Python 3.12+ — and are excluded there; results are unchanged on both interpreters (0 strict duplicates, identical near-twin rates to the digit).*
+
 ## Is there a gap in the mechanism itself that can be refined?
 
 Your paper flags repetitive generation as a known risk. The selection
